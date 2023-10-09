@@ -1,16 +1,10 @@
 body {
-    /* background-image: url("images/forest-fantasy-big.jpg"); */
     background-color: #55a148;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
     display: flex;
     flex-direction: column;
     justify-content: stretch;
     min-height: 95vh;
 }
-
-   
 
 .parchment {
     /* display: inline-flex;
