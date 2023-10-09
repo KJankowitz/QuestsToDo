@@ -1,0 +1,24 @@
+<%- include('partials/header.ejs') %>
+
+<div class="parchment">
+<h2>Home Quests</h2>
+
+<!--List Items  -->
+    <% if (locals.doList) {%>
+    <%  for (let i=0; i<doList.length; i++) { %>
+        <div class="list-item">
+         <input type="checkbox" class="checkbox" value="item"> 
+         <label for="quest-item"><%=doList[i]%></label>
+        </div>
+    <%   }; %>
+    <% } %>
+<form class="list-item" action="/" method="POST">
+    <input type="text" name="list-item-text" placeholder="New Quest" autocomplete="off">
+    <button type="submit" name="new-item" value="submit">+
+        </button>
+</form>
+
+</div>
+
+
+<%- include('partials/footer.ejs') %>

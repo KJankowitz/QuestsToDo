@@ -1,0 +1,19 @@
+</main>
+
+<footer>
+  <% const d = new Date();
+  const year = d.getFullYear(); %>
+  <p>Copyright © <%= year %> K. Jankowitz</p>
+</footer>
+<script> 
+  const checkboxes = document.querySelectorAll('.checkbox');
+  checkboxes.forEach(checkbox => {
+    checkbox.addEventListener('click', () => {
+    const listItem = checkbox.parentElement;
+    listItem.classList.toggle("checked");
+   });
+  });
+</script> 
+</body>
+
+</html>

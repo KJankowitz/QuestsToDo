@@ -1,0 +1,107 @@
+body {
+    /* background-image: url("images/forest-fantasy-big.jpg"); */
+    background-color: #55a148;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 95vh;
+}
+
+   
+
+.parchment {
+    /* display: inline-flex;
+    flex-direction:column;
+    justify-content: stretch;
+    min-height: 95vh; */
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+h1, h2 {
+    color: #a86f31;
+    text-align: center;
+    font-family: "MedievalSharp", serif ;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.date {
+    text-align: center;
+    background-color: #f8e0a8;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+.list-item {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #FCF5E5;
+}
+
+form {
+    text-align: center;
+    margin-left: 50px;
+}
+
+label {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px; 
+}
+
+input[type="text"] {
+    text-align: center;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 200;
+    border: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    color:#FCF5E5;
+    text-decoration: none;
+}
+
+button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #55a148;
+    color: #FCF5E5;
+    font-size: 30px;
+    border-width: 0;
+    margin: 2px 2px 2px 5px;
+}
+
+/* .conquered {
+    text-decoration: line-through;
+} */
+
+.checkbox:checked + label {
+    text-decoration: line-through;
+}
