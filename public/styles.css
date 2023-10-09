@@ -7,17 +7,12 @@ body {
 }
 
 .parchment {
-    /* display: inline-flex;
-    flex-direction:column;
-    justify-content: stretch;
-    min-height: 95vh; */
     max-width: 400px;
     margin: 50px auto;
     background: white;
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px;
-    
 }
 
 h1, h2 {
@@ -33,7 +28,6 @@ h2 {
 .nav-bar {
     display: flex;
     gap: 2rem;
-
 }
 
 .date {
@@ -41,7 +35,6 @@ h2 {
     background-color: #f8e0a8;
     border: 2px solid black;
     border-radius: 5px;
-    
 }
 
 .list-item {
@@ -91,10 +84,6 @@ button {
     border-width: 0;
     margin: 2px 2px 2px 5px;
 }
-
-/* .conquered {
-    text-decoration: line-through;
-} */
 
 .checkbox:checked + label {
     text-decoration: line-through;
