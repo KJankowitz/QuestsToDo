@@ -20,7 +20,7 @@ app.post("/", (req, res) => {
     res.render("index.ejs", {
         doList: homeList,
     });
-})
+});
 
 app.get("/work", (req, res) => {
     res.render("work.ejs", {
@@ -33,7 +33,7 @@ app.post("/work", (req, res) => {
     res.render("work.ejs", {
         doList: workList,
     });
-})
+});
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}.`);
